@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "Space Grotesk";
+    font-weight: 300;
+}
+h1{
+    font-family: "rajdhani";
+    font-size: 36px;
+    font-weight: 400;
+}
+/*Design de la navigation*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:50px 0 ;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li a{
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "rajdhani";
+    margin: 0 30px;
+    text-decoration:none;
+}
+nav ul a:hover{
+    color: #FFFF00;
+}
+.logo:hover,.social:hover{
+    filter: invert(4%) sepia(100%) saturate(1680%) hue-rotate(352deg) brightness(109%) contrast(104%);
+}
+/*Design de la partie entete hero*/
+#hero{
+    background-image: url(../Illustrations2/Batgame_1.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+.content{
+    width: 60%;
+    padding-top: 150px;
+}
+.content p{
+    font-size: 50px;
+    font-family: "rajdhani";
+    font-weight: bold;
+}
+#hero .fleche{
+    display: block;
+    margin: 0 auto;
+    margin-top: 500px;
+}
+/*design du footer*/
+footer{
+    margin-top: 162px;
+}
+footer .text-footer{
+    text-align: center ;
+    font-size: 14px;
+
+}
+footer .social-footer{
+    text-align: center;
+    margin: 50px 0;
+    justify-content: space-between;
+}
+footer .social-items{
+    padding: 15px;
+}
+footer a{
+    text-decoration: none;
+}
+.up-bar{
+    border-top: #BCBBBD 2px solid;
+    position: relative;
+    top: 132px;
+    width: 85%;
+    left: 102px;
+}
+.left-bar{
+    border-left: #BCBBBD 2px solid;
+    position: relative;
+    top: 132px;
+    width: 85%;
+    left: 102px;
+}
+.right-bar{
+    border-right: #BCBBBD 2px solid;
+    position: relative;
+    top: 132px;
+    width: 85%;
+    left: 102px;
+}
+/*Design du scroll*/
+.scroll{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     right: 60px;
+     top: 250px;
+}
+.scroll .social{
+    margin-top: 15px;
+}
+.titre-gen{
+    font-weight: bold;
+    margin: 30px 0;
+}
+.text{
+    margin-bottom: 40px;
+    text-align: justify;
+    width: 80%; 
+    font-size: 21px;
+}
+.info{
+    text-align: center;
+}
+/*Design du partie quizz*/
+#quizz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+ #quizz .container {
+    text-align: center;
+  }
+#quizz .container p{
+    font-size: 30px;
+    font-family: "rajdhani";
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px;
+}
+#quizz img{
+    margin-bottom: 100px;
+}
+#quizz .btn{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 10px 40px;
+    background: linear-gradient(
+       80deg,white,orange
+    );
+}
+.hidden{
+    display: none;
+}

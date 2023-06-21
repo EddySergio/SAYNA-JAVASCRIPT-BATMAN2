@@ -41,12 +41,15 @@ nav{
 }
 ul{
     list-style: none;
+    display: flex;
 }
 nav ul li a{
     color: var(--white-color);
     font-size: 30px;
     font-weight: 500;
     font-family: "rajdhani";
+    margin: 0 30px;
+    text-decoration:none;
 }
 nav ul a:hover{
     color: #FFFF00;
